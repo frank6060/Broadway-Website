@@ -34,7 +34,7 @@ class PlaysController < ApplicationController
 		if @play.update(play_params)
 			redirect_to play_path(@play)
 			
-		else
+		else 
 			render 'edit'
 		end
 	end
